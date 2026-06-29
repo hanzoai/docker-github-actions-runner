@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="docker-github-actions-runner" width="880"></p>
+
 Docker Github Actions Runner
 ============================
 
