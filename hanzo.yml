@@ -1,0 +1,9 @@
+# The self-hosted runner image itself. There is no source here to test — the
+# Dockerfile is the product, so building it IS the gate: a bad apt line, a
+# GH_RUNNER_VERSION that no longer publishes an asset, or a broken entrypoint
+# fails the build and nothing ships.
+images:
+  - name: docker-github-actions-runner
+    context: .
+    dockerfile: Dockerfile
+    repo: ghcr.io/hanzoai/docker-github-actions-runner
